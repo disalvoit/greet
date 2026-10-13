@@ -45,3 +45,14 @@ stderr.
   anything: an empty table, a loop over zero cases, or a test that only calls
   `t.Skip`. (Packages that legitimately hold no tests, such as `cmd/greet`, are
   not counted against you.)
+
+## The checkpoint
+
+The 22 held-out tests for episode 01 of *Zero to Graded* live on the `checkpoint`
+branch, with a runner that grades your module without modifying it:
+
+    git clone -b checkpoint https://github.com/disalvoit/greet /tmp/greet-checkpoint
+    /tmp/greet-checkpoint/run-checkpoint.sh .
+
+See `checkpoint/CHECKPOINT.md`. This starter fails 11 of the 22; the episode is about
+making them pass, starting from a test you have watched fail.
