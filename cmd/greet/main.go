@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/disalvo/greet"
+	"github.com/disalvoit/greet"
 )
 
 func main() {

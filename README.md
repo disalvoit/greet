@@ -5,7 +5,7 @@ grades `greet` against exactly what is written here, and nothing else.
 
 ## Library
 
-Module path: `github.com/disalvo/greet`. Package `greet` lives at the module root.
+Module path: `github.com/disalvoit/greet`. Package `greet` lives at the module root.
 
     func Hello(name string) string
 

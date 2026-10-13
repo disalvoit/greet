@@ -18,8 +18,8 @@ and `GOTOOLCHAIN=local`, so nothing here can reach the network:
     === RUN   TestHelloKnownNames
     --- PASS: TestHelloKnownNames (0.00s)
     PASS
-    ok      github.com/disalvo/greet        0.005s
-    ?       github.com/disalvo/greet/cmd/greet      [no test files]
+    ok      github.com/disalvoit/greet        0.005s
+    ?       github.com/disalvoit/greet/cmd/greet      [no test files]
 
 One test. It walks three names — `Ada`, `Grace`, `Linus` — and all three are
 non-empty and whitespace-free.
